@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right,rgb(224, 205, 151),rgb(237, 241, 241));
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    background-image:
+    linear-gradient(to right,rgba(204, 156, 93, 0.747) 30%,rgba(226, 233, 233, 0.103)),
+    url(mmk.jpeg)
+    
+    
+    ;
+    background-position: center;
+    width: 90%;
+    height: 760px;
+       border-radius: 10px;
+border: 2px solid transparent;
+}
+.container:hover{
+        background-image:
+    linear-gradient(to right,rgba(204, 156, 93, 0.747) 25%,transparent),
+    url(mmk.jpeg)
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+font-size: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    border-bottom: 2px solid transparent;
+        text-shadow: 1px 1px rgb(231, 158, 21),3px 3px rgb(193, 216, 211);
+}
+ul a:hover{
+    border-bottom-color: aliceblue;
+}
+.content{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgb(50, 20, 185),3px 3px rgb(151, 95, 21);
+}
+.content p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 700px;
+    padding: 70px 0;
+    text-shadow: 1px 1px red,3px 3px blue;
+}
+.content button{
+    font-size: 40px;
+    padding: 6px 10px;
+    border-radius: 10px;
+border: 2px solid transparent;
+cursor: pointer;
+}
+.content button:hover{
+    background-color:transparent;
+    border-color: aliceblue;
+    color: #e2d3d3;
+}
